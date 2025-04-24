@@ -20,7 +20,6 @@
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
-- [Custom themes](#custom-themes)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
