@@ -21,6 +21,7 @@ Before everything please do uninstalling and installing [here](#Fully-Uninstall-
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
+- [Recommended Launcher](#Recommended-Launcher)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
@@ -35,8 +36,8 @@ Before everything please do uninstalling and installing [here](#Fully-Uninstall-
 - [Not executing](#not-executing)
 
 
-##Recommended to use Fishstrap
-Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
+## Recommended Launcher
+I recommend using Fishstrap, Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
 - on deployment/ Channel type **LIVE** to it, set force roblox reinstallation on and Auto channel change action to always
 - save and launch it will reinstall roblox for 1 time then you can play
 - alternativly you can use [rdd.latte.to](https://rdd.latte.to/)
