@@ -34,6 +34,14 @@ Before everything please do uninstalling and installing [here](#Fully-Uninstall-
 - [White screen](#white-screen)
 - [Not executing](#not-executing)
 
+> [!TIP]
+>Recommended to use Fishstrap
+>Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
+> 
+> on deployment/ Channel type **LIVE** to it, set force roblox reinstallation on and Auto channel change action to always
+> 
+> save and launch it will reinstall roblox for 1 time then you can play
+
 ---
 
 ## Issues with No Fix / Planned Features
@@ -51,8 +59,8 @@ Planned:
 
 ---
 
-## Fully Uninstall and Install
-# Please do this first if you are having issues.
+# Fully Uninstall and Install
+## Please do this first if you are having issues.
 
 - Press "Windows + r" and type `%localappdata%` and delete the Roblox folder. If you have Fishstrap/bloxstrap, go to `/Fishstrap/versions` and delete the version-****** (example: version-a9a5d0b275a34ffb) folder so next time you open it, it installs the new version of Roblox.
 - Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
