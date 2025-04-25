@@ -194,7 +194,7 @@ If you are, update and compare again. Also make sure channel is production!
 
 - Make sure you are running Swift as admin  
 - Ensure your Windows account has admin privileges
-
+- Make sure to install Dependencies
 ---
 
 ## What VPN to use
@@ -230,7 +230,7 @@ Now Swift should execute properly.
 ## Dependencies
 
 > [!NOTE]
-> Make sure all the following are installed:
+> Make sure all the following are installed and your drivers are up-to-date:
 
 - [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
 - [VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)  
