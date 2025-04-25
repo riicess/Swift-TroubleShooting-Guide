@@ -58,12 +58,12 @@ Planned:
 - Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
 - type "windows + r" and type `%appdata%`, delete the swift folder (If you have important scripts, backup your scripts and paste them here after you finish this)
 - Head to [Fishstrap](https://www.fishstrap.app/) and download Fishstrap (You can skip this if you already have it)
-- After installing it, when you are in settings you can select what you want but first head to "Deployment" and on **Channel** type **production** set on **force roblox reinstallation** (only does it next launch) and If **Automatic channel change action** is not set to always prompt, set it to **always prompt** now you can save it, dont launch now.
+- After installing it, when you are in settings you can select what you want but first head to "Deployment" and on **Channel** type **LIVE** set on **force roblox reinstallation** (only does it next launch) and If **Automatic channel change action** is not set to always prompt, set it to **always prompt** now you can save it, dont launch now.
 - Make a Swift folder and set that folder to [exceptions](#how-do-i-disable-my-antivirus). You don't have the temp file now, so we will need to add it later.
 - After disabling the antivirus head to swift [download](https://getswift.gg/) and download swift to the folder that you added exceptions. Dont launch it now.
 - install the [Dependencies](#dependencies) if you dont have them.
 - Run Swift as administrator, make it install, and after it finishes and says get key, close Swift and add the temp folder to [exceptions](#how-do-i-disable-my-antivirus)
-- Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is production.
+- Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is **LIVE**.
 - Get your Swift key and try attaching.
 
 Now it should work if it doesn't, and you get errors before you could even finish or after finishing, head to [Table of Contents](#app), select your error, and try the fix.
@@ -167,7 +167,7 @@ Open roblox, go to more, then about
 ![version](https://github.com/user-attachments/assets/8dd71b87-84d5-4ac4-8a20-a83ffe217c0c)
 
 Compare this information with someone who isn't getting the error. As you may be on the wrong version
-If you are, update and compare again. Also make sure channel is production!
+If you are, update and compare again. Also make sure channel is **LIVE**!
 
 - Open cmd prompt (windows key +r, type cmd, hit enter)
 - Paste the following `if exist "%temp%\Ckfn1k59vk.exe" (echo File exists) else (echo File not found)`, and hit enter
