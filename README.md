@@ -55,7 +55,7 @@ Planned:
 # Please do this first if you are having issues.
 
 - Press "Windows + r" and type `%localappdata%` and delete the Roblox folder. If you have Fishstrap/bloxstrap, go to `/Fishstrap/versions` and delete the version-****** (example: version-a9a5d0b275a34ffb) folder so next time you open it, it installs the new version of Roblox.
--Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
+- Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
 - type "windows + r" and type `%appdata%`, delete the swift folder (If you have important scripts, backup your scripts and paste them here after you finish this)
 - Head to [Fishstrap](https://www.fishstrap.app/) and download Fishstrap (You can skip this if you already have it)
 - After installing it, when you are in settings you can select what you want but first head to "Deployment" and on **Channel** type **production** set on **force roblox reinstallation** (only does it next launch) and If **Automatic channel change action** is not set to always prompt, set it to **always prompt** now you can save it, dont launch now.
