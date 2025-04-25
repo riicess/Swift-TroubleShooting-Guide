@@ -134,6 +134,9 @@ Close Swift and Roblox completely.
 > If you get this error but dont crash, try to inject multiple times</br>
 > Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
+> [!IMPORTANT]
+>While some people can attach on the web version,some people get error while using the web version if this happens try using the **Roblox App** and not the **web version.** (This not guaranteed fix)
+
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
 
@@ -149,6 +152,9 @@ If you are, update and compare again. Also make sure channel is production!
 - If the file dosen't exist, use a [vpn](#what-vpn-to-use) close swift, rerun
 - After swift fully opens run the cmd again to see if the file is now there
 - If it is, you can now turn off the vpn, restart swift, and use as normal.
+
+> [!TIP]
+> If this doesn't work try attaching it 2-3 times while its saying "starting roblox".
 
 
 ---
