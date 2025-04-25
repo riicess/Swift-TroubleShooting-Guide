@@ -14,7 +14,7 @@
 > [!NOTE]
 > Some files are required for swift to work, refer to [Dependencies](#dependencies)
 
-Before this please do [this](#Fully-Uninstall-and-Install)
+Before everything please do uninstalling and installing [here](#Fully-Uninstall-and-Install)
 
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
