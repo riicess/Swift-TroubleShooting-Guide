@@ -52,7 +52,7 @@ Planned:
 ---
 
 ## Fully Uninstall and Install
-#Please do this first if you are having issues.
+# Please do this first if you are having issues.
 
 - Press "Windows + r" and type `%localappdata%` and delete the Roblox folder. If you have Fishstrap/bloxstrap, go to `/Fishstrap/versions` and delete the version-****** (example: version-a9a5d0b275a34ffb) folder so next time you open it, it installs the new version of Roblox.
 -Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
