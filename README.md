@@ -180,6 +180,8 @@ If you are, update and compare again. Also make sure channel is **LIVE**!
 - close swift and rerun swift
 - check if `luau-lsp.exe` exists
 - When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
+- If it still fails you probably did something wrong, try with a [vpn](#what-vpn-to-use)
+- try doing a fresh [reinstall](#Fully-Uninstall-and-Install)
 
 ![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
