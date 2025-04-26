@@ -123,12 +123,8 @@ You might want to downgrade if Swift hasn’t updated yet. Here’s how:
 - [Windows 10 Exceptions Guide](https://www.youtube.com/watch?v=BonLkFNnO9w)  
 - [Windows 11 Exceptions Guide](https://www.youtube.com/watch?v=zGiNGnX5dYg)
 
-Add these paths:
+Add this path:
 - Your Swift folder
-- `%temp%\Ckfn1k59vk.exe`
-
-> [!IMPORTANT]
-> The file (`Ckfn1k59vk.exe`) is used by Swift. If it's blocked, you’ll get the [Injection Timeout](#injection-timeout) error.
 
 Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exceptions for your antivirus on YouTube.
 
@@ -169,9 +165,6 @@ Close Swift and Roblox completely.
 > If you get this error but dont crash, try to inject multiple times</br>
 > Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
-> [!IMPORTANT]
->While some people can attach on the web version,some people get error while using the web version if this happens try using the **Roblox App** and not the **web version.** (This not guaranteed fix)
-
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
 
@@ -182,15 +175,16 @@ Compare this information with someone who isn't getting the error. As you may be
 If you are, update and compare again. Also make sure channel is **LIVE**!
 
 
-- Open cmd prompt (windows key +r, type cmd, hit enter)
-- Paste the following `if exist "%temp%\Ckfn1k59vk.exe" (echo File exists) else (echo File not found)`, and hit enter
--if it says file exists go to last step, if it says file not found make sure your antivirus is disabled and download it on github guide and put it in the **%temp%** folder
+- open up your swift folder, go to bin, and check if there is `luau-lsp.exe` there
+-if there is go to last step, if there isn't first, make sure your antivirus is disabled or you added swift folder to exceptions, download `luau-lsp.exe` on github guide and put it in the bin folder.
 - close swift and rerun swift
-- check if Ckfn1k59vk.exe exists
+- check if `luau-lsp.exe` exists
 - When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
 
 ![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
+> [!IMPORTANT]
+> If you don't have `luau-lsp.exe` you will get injection timeout everytime you press attach
 ---
 
 ## Module not found
@@ -276,9 +270,8 @@ Now Swift should execute properly.
 
 ## Crash on inject
 
-- Make sure to inject in the home page of the **ROBLOX APP**, do **not** use the web version
+- Make sure to inject in the home page or on bloxstrap/fishstrap inject when "starting roblox.." gui appears
 - Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
-- If roblox just keeps launching an outdated version, use [this](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/timesync.bat) tool to update for you
-- Inject on the MENU or when it tells you starting roblox and not in game
+- If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
  
 ---
