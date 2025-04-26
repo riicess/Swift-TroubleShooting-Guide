@@ -70,7 +70,7 @@ Planned:
 - Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
 - type "windows + r" and type `%appdata%`, delete the swift folder (If you have important scripts, backup your scripts and paste them here after you finish this)
 - Head to [Fishstrap](https://www.fishstrap.app/) and download Fishstrap (You can skip this if you already have it)
-- After installing it, when you are in settings you can select what you want but first head to "Deployment" and on **Channel** type **LIVE** set on **force roblox reinstallation** (only does it next launch) and If **Automatic channel change action** is not set to always prompt, set it to **always prompt** now you can save it, dont launch now.
+- After installing it you can set your fishstrap setting but the rendering mode should be **direct x 11**, dont launch now just save it.
 - Make a Swift folder and set that folder to [exceptions](#how-do-i-disable-my-antivirus). You don't have the temp file now, so we will need to add it later.
 - After disabling the antivirus head to swift [download](https://getswift.gg/) and download swift to the folder that you added exceptions. Dont launch it now.
 - install the [Dependencies](#dependencies) if you dont have them.
