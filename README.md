@@ -188,7 +188,7 @@ If you are, update and compare again. Also make sure channel is **LIVE**!
 - If it is, you can now turn off the vpn, restart swift, and use as normal.
 
 > [!TIP]
-> If you have the `Ckfn1k59vk.exe` you could try spamming attach when it says "Starting roblox..."
+> If you have the `Ckfn1k59vk.exe` you could try spamming attach 3-4 times when it says "Starting roblox..."
 
 
 ---
