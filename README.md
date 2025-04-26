@@ -189,6 +189,7 @@ If you are, update and compare again. Also make sure channel is **LIVE**!
 - check if Ckfn1k59vk.exe exists
 - When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
 
+![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
 ---
 
@@ -277,7 +278,7 @@ Now Swift should execute properly.
 
 - Make sure to inject in the home page of the **ROBLOX APP**, do **not** use the web version
 - Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
-- If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
-- Inject on the MENU and not in game
+- If roblox just keeps launching an outdated version, use [this](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/timesync.bat) tool to update for you
+- Inject on the MENU or when it tells you starting roblox and not in game
  
 ---
