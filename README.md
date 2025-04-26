@@ -181,14 +181,13 @@ Open roblox, go to more, then about
 Compare this information with someone who isn't getting the error. As you may be on the wrong version
 If you are, update and compare again. Also make sure channel is **LIVE**!
 
+
 - Open cmd prompt (windows key +r, type cmd, hit enter)
 - Paste the following `if exist "%temp%\Ckfn1k59vk.exe" (echo File exists) else (echo File not found)`, and hit enter
-- If the file dosen't exist, use a [vpn](#what-vpn-to-use) close swift, rerun
-- After swift fully opens run the cmd again to see if the file is now there
-- If it is, you can now turn off the vpn, restart swift, and use as normal.
-
-> [!TIP]
-> If you have the `Ckfn1k59vk.exe` you could try spamming attach 3-4 times when it says "Starting roblox..."
+-if it says file exists go to last step, if it says file not found make sure your antivirus is disabled and download it on github guide and put it in the **%temp%** folder
+- close swift and rerun swift
+- check if Ckfn1k59vk.exe exists
+- When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
 
 
 ---
