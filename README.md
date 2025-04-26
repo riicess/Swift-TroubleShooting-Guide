@@ -14,18 +14,19 @@
 > [!NOTE]
 > Some files are required for swift to work, refer to [Dependencies](#dependencies)
 
-Before everything please do uninstalling and installing [here](#Fully-Uninstall-and-Install)
+Before everything please do uninstalling and installing [here](#fully-uninstall-and-install)
 
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
 - [How do I downgrade?](#how-do-i-downgrade)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
-- [Recommended Launcher](#Recommended-Launcher)
+- [Recommended Launcher](#recommended-launcher)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
 - [Initialization failed: Unexpected Error](#initialization-failed-unexpected-error)
+- [Initialization failed: ServerCreationFailed](#initialization-failed-servercreationfailed)
 - [Crash on inject](#crash-on-inject)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
@@ -34,17 +35,19 @@ Before everything please do uninstalling and installing [here](#Fully-Uninstall-
 - [Your system clock is incorrect](#your-system-clock-is-incorrect)
 - [White screen](#white-screen)
 - [Not executing](#not-executing)
+- [Dependencies](#dependencies)
+- [Crash on inject](#crash-on-inject)
 
+---
 
 ## Recommended Launcher
-I recommend using Fishstrap, Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
+I recommend using [Fishstrap](https://www.fishstrap.app/), Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
 - on deployment/ Channel type **LIVE** to it, set force roblox reinstallation on and Auto channel change action to always
 - save and launch it will reinstall roblox for 1 time then you can play
-- alternativly you can use [rdd.latte.to](https://rdd.latte.to/)
+- alternatively you can use [rdd.latte.to](https://rdd.latte.to/)
 - look at this guide
 - https://streamable.com/oslg0m
 - here is the link that the video used: https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version=a9a5d0b275a34ffb
-
 
 ---
 
@@ -90,7 +93,7 @@ Now it should work if it doesn't, and you get errors before you could even finis
 - Close Swift if open
 - If you are using a vpn disable it. If you are not using a [vpn](#what-vpn-to-use), enable one
 - Relaunch swift
-- If swift has launched fully without that error, you can now disable ur vpn
+- If swift has launched fully without that error, you can now disable your vpn
 
 ---
 
@@ -150,7 +153,7 @@ Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exce
 > If you obtain a key using a VPN, you **MUST** redeem the key using the same VPN. After that, you can turn it off.
 
 ### Lootlabs issues?
-- Disable VPN  
+- Disable [VPN](#what-vpn-to-use)  
 - Use [Quad9 DNS](https://youtube.com/watch?v=aujUl3yt6nM)  
 - Refresh stuck tasks  
 - If given an article task, click inside **the same tab** that opens.
@@ -188,7 +191,7 @@ Compare this information with someone who isn't getting the error. As you may be
 If you are, update and compare again. Also make sure channel is **LIVE**!
 
 > [!WARNING]
-> this only works with fishstrap and bloxstrap
+> this only works with [fishstrap](#recommended-launcher) and bloxstrap
 
 - open up your swift folder, go to bin, and check if there is `luau-lsp.exe` there
 -if there is go to last step, if there isn't first, make sure your antivirus is disabled or you added swift folder to exceptions, download `luau-lsp.exe` on github guide and put it in the bin folder.
@@ -196,7 +199,7 @@ If you are, update and compare again. Also make sure channel is **LIVE**!
 - check if `luau-lsp.exe` exists
 - When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
 - If it still fails you probably did something wrong, try with a [vpn](#what-vpn-to-use)
-- try doing a fresh [reinstall](#Fully-Uninstall-and-Install)
+- try doing a fresh [reinstall](#fully-uninstall-and-install)
 
 ![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
@@ -239,7 +242,7 @@ If you are, update and compare again. Also make sure channel is **LIVE**!
 
 - Make sure you are running Swift as admin  
 - Ensure your Windows account has admin privileges
-- Make sure to install Dependencies
+- Make sure to install [Dependencies](#dependencies)
 ---
 
 ## What VPN to use
@@ -285,11 +288,10 @@ Now Swift should execute properly.
 - [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - [D3D](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
+---
 
 ## Crash on inject
 
 - Make sure to inject in the home page or on bloxstrap/fishstrap inject when "starting roblox.." gui appears
 - Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
 - If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
- 
----
