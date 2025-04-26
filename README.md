@@ -92,7 +92,7 @@ Now it should work if it doesn't, and you get errors before you could even finis
 ---
 
 ## Initialization failed: ServerCreationFailed
-- make sure you added swift to exceptions
+- make sure you added swift to [exceptions](#how-do-i-disable-my-antivirus)
 - restart swift
 
 ---
@@ -185,7 +185,8 @@ Compare this information with someone who isn't getting the error. As you may be
 If you are, update and compare again. Also make sure channel is **LIVE**!
 
 > [!WARNING]
-> this only works with fishstrap / 
+> this only works with fishstrap and bloxstrap
+
 - open up your swift folder, go to bin, and check if there is `luau-lsp.exe` there
 -if there is go to last step, if there isn't first, make sure your antivirus is disabled or you added swift folder to exceptions, download `luau-lsp.exe` on github guide and put it in the bin folder.
 - close swift and rerun swift
