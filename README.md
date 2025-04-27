@@ -42,11 +42,10 @@ Before everything please do uninstalling and installing [here](#fully-uninstall-
 
 ## Recommended Launcher
 I recommend using [Fishstrap](https://www.fishstrap.app/), Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
-- on deployment/ Channel type **LIVE** to it, set force roblox reinstallation on and Auto channel change action to always
+- Make your settings, and on deployment tab enable force roblox reinstallation
 - save and launch it will reinstall roblox for 1 time then you can play
 - alternatively you can use [rdd.latte.to](https://rdd.latte.to/)
-- look at this guide
-- https://streamable.com/oslg0m
+- look at this guide https://streamable.com/oslg0m
 - here is the link that the video used: https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version=a9a5d0b275a34ffb
 
 ---
