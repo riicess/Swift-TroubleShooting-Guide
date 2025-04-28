@@ -56,7 +56,6 @@ I recommend using [Fishstrap](https://www.fishstrap.app/), Get it on their [site
 > These are known issues or upcoming features that are being worked on.
 
 Script editor bugs:
-- Switching tabs clears active text
 - Tab autofill doesn't work
 - Cannot rename files/tabs directly
 
