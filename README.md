@@ -1,5 +1,5 @@
 # 🛠️ Swift Troubleshooting Guide
-<sub> not made by me, made by [LilahCodes](https://github.com/LilahCodes) all credits go to her i just updated it. <sub>
+<sub> not made by me, made by [LilahCodes](https://github.com/LilahCodes) all credits go to her i just updated it and added new things. <sub>
 
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
