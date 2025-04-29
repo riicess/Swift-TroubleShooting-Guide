@@ -79,7 +79,7 @@ Planned:
 - After disabling the antivirus head to swift [download](https://getswift.gg/) and download swift to the folder that you added exceptions. Dont launch it now.
 - install the [Dependencies](#dependencies) if you dont have them.
 - Run Swift as administrator, make it install, and after it finishes and says get key, close Swift and add the temp folder to [exceptions](#how-do-i-disable-my-antivirus)
-- Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is **LIVE**.
+- Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is **LIVE** or **production**.
 - Get your Swift key and try attaching.
 
 Now it should work if it doesn't, and you get errors before you could even finish or after finishing, head to [Table of Contents](#app), select your error, and try the fix.
