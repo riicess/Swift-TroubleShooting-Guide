@@ -59,9 +59,6 @@ Script editor bugs:
 - Tab autofill doesn't work
 - Cannot rename files/tabs directly
 
-Executing bug:
-- executing a script that has more than 200 local values will crash swift. (will get fixed)
-
 Planned:
 - Multi-instance is not yet supported. Might work via third-party tools, but official support is coming soon.
 
