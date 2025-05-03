@@ -185,16 +185,37 @@ Open roblox, go to more, then about
 Compare this information with someone who isn't getting the error. As you may be on the wrong version
 If you are, update and compare again. Also make sure channel is **LIVE**!
 
-> [!WARNING]
-> this only works with [fishstrap](#recommended-launcher) and bloxstrap
+**GUIDE TO RESOLVING INJECTION TIMEOUT ERRORS**
 
-- open up your swift folder, go to bin, and check if there is `luau-lsp.exe` there
--if there is go to last step, if there isn't first, make sure your antivirus is disabled or you added swift folder to exceptions, download `luau-lsp.exe` on github guide and put it in the bin folder.
-- close swift and rerun swift
-- check if `luau-lsp.exe` exists
-- When you launch roblox and it says starting roblox **spam** attach swift 2-3 times
-- If it still fails you probably did something wrong, try with a [vpn](#what-vpn-to-use)
-- try doing a fresh [reinstall](#fully-uninstall-and-install)
+If you encounter injection timeout issues and lack administrative privileges on your current user account, please follow the steps outlined below:
+
+**I. Administrator Account Access**
+1. *Switch to the Administrator Account:*
+   - Log in to the administrator account on your computer.
+   - Download and install the appropriate version of Roblox.
+   - If a version of Roblox is already installed on the administrator account, please uninstall it prior to proceeding, as it may be outdated.
+   - Install the newly downloaded version of Roblox.
+
+2. *Return to Your User Account:*
+   - Log back into your original user account.
+   - Launch Swift with administrative privileges, followed by launching Roblox with the same elevated rights.
+
+If you are currently using the administrator account, you may:
+- Download and install both the correct versions of Roblox and Swift directly from the administrator account.
+- Run both applications from the administrator account, as this should effectively address the injection timeout issue.
+
+**II. Reinstallation of Swift and Roblox**
+1. Uninstall Swift and Roblox-related files located in `%localappdata%`.
+2. Remove Swift and Roblox installations from Control Panel > Programs > Programs & Features.
+3. Reinstall [Swift](https://getswift.gg).
+4. Reinstall [Roblox](https://roblox.com/download).
+5. Install booststrapper. ([Bloxstrap](<https://bloxstrap.org>) or [Fishstrap](https://fishstrap.org).)
+6. make sure your antivirus is **off** and you added exceptions to your antivirus.
+7. make sure you made a swift folder and opened swift there.
+8. delete everything in the swift folder except swift.exe and run it as admin.
+9. When you launch roblox and it says starting roblox spam attach swift 2-3 time till it doesnt say no roblox process found.
+   https://media.catgirl.dpdns.org/photos/startingroblox.jpg
+
 
 ![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
