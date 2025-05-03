@@ -283,10 +283,7 @@ Now Swift should execute properly.
 - [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - [D3D](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
-> [!NOTE]
-> You can also use the Swift Dependencies Installer, install the exe from github and run it. (Might have some issues)
->
-> [Virus Total file](https://www.virustotal.com/gui/file/e9ead188e7aedc73268e04a26edf0b487c8b452760b60d54901a22b9d47e7c81/behavior), you can also check with tria.ge, might get some points cuz its using registery to check. 
+
 ---
 
 ## Crash on inject
