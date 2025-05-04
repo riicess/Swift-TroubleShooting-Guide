@@ -71,13 +71,12 @@ Planned:
 - Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
 - type "windows + r" and type `%appdata%`, delete the swift folder (If you have important scripts, backup your scripts and paste them here after you finish this)
 - Head to [Fishstrap](https://www.fishstrap.app/) and download Fishstrap (You can skip this if you already have it)
-- After installing it you can set your fishstrap setting but the rendering mode should be **direct x 11**, dont launch now just save it.
-- Make a Swift folder and set that folder to [exceptions](#how-do-i-disable-my-antivirus). You don't have the temp file now, so we will need to add it later.
+- After installing it you can set your fishstrap setting but the rendering mode should be **direct x 11**, dont launch now just save it.click *fastflags* then *graphics*, **scroll down** 
+- Make a Swift folder and set that folder to [exceptions](#how-do-i-disable-my-antivirus).
 - After disabling the antivirus head to swift [download](https://getswift.gg/) and download swift to the folder that you added exceptions. Dont launch it now.
 - install the [Dependencies](#dependencies) if you dont have them.
-- Run Swift as administrator, make it install, and after it finishes and says get key, close Swift and add the temp folder to [exceptions](#how-do-i-disable-my-antivirus)
 - Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is **LIVE** or **production**.
-- Get your Swift key and try attaching.
+- Get your Swift key and try attaching, If you get injection timeout do the [Injection timeout fix](#injection-timeout)
 
 Now it should work if it doesn't, and you get errors before you could even finish or after finishing, head to [Table of Contents](#app), select your error, and try the fix.
 
