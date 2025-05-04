@@ -207,7 +207,7 @@ If you are currently using the administrator account, you may:
 1. Uninstall Swift and Roblox-related files located in `%localappdata%`.
 2. Remove Swift and Roblox installations from Control Panel > Programs > Programs & Features.
 3. Reinstall [Swift](https://getswift.gg).
-4. Reinstall [Roblox](https://roblox.com/download).
+4. If you want you can uninstall normal roblox.
 5. Install booststrapper. ([Bloxstrap](<https://bloxstrap.org>) or [Fishstrap](https://fishstrap.org).)
 6. make sure your antivirus is **off** and you added exceptions to your antivirus.
 7. make sure you made a swift folder and opened swift there.
