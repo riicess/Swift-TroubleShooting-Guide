@@ -223,7 +223,10 @@ If you are currently using the administrator account, you may:
     3. If found, end these tasks.
     4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
     5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
-https://media.catgirl.dpdns.org/photos/HowToAttach.mp4
+
+https://github.com/user-attachments/assets/b6e918f8-cadf-475b-a2de-4809467814a7
+
+
 
 > [!IMPORTANT]
 > If you don't have `luau-lsp.exe` you will get injection timeout everytime you press attach
