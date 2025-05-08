@@ -225,8 +225,6 @@ If you are currently using the administrator account, you may:
     5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
 https://media.catgirl.dpdns.org/photos/HowToAttach.mp4
 
-![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
-
 > [!IMPORTANT]
 > If you don't have `luau-lsp.exe` you will get injection timeout everytime you press attach
 ---
