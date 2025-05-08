@@ -3,8 +3,8 @@
 
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
-> **Status:** 🔴 Down</br>
-> **Last updated version:** `0.671.0.6710817` **VersionGuid:**: `version-c3c1514fd260482e`
+> **Status:** 🟢 WORKING</br>
+> **Last updated version:** `0.672.0.6720706` **VersionGuid:**: `version-ff05edc617954c5b`
 > **Join the community:** [Swift Discord](https://discord.gg/getswiftgg)
 
 ---
@@ -19,9 +19,9 @@ Before everything please do uninstalling and installing [here](#fully-uninstall-
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
 - [Issues with No Fix / Planned Features](#issues-with-no-fix--planned-features)
-- [How do I downgrade?](#how-do-i-downgrade)
+- [Using Older Roblox Versions (Downgrading)](#using-older-roblox-versions-downgrading)
 - [How do I disable my antivirus?](#how-do-i-disable-my-antivirus)
-- [Recommended Launcher](#recommended-launcher)
+- [Roblox Version Management](#roblox-version-management)
 ### Website
 - [Key system Issues](#key-system-issues)
 ### App
@@ -40,13 +40,9 @@ Before everything please do uninstalling and installing [here](#fully-uninstall-
 
 ---
 
-## Recommended Launcher
-I recommend using [Fishstrap](https://www.fishstrap.app/), Get it on their [site](https://www.fishstrap.app/) or their [github](https://github.com/fishstrap/fishstrap)
-- Make your settings, and on deployment tab enable force roblox reinstallation
-- save and launch it will reinstall roblox for 1 time then you can play
-- alternatively you can use [rdd.latte.to](https://rdd.latte.to/)
-- look at this guide https://streamable.com/oslg0m
-- here is the link that the video used: https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version=a9a5d0b275a34ffb
+## Roblox Version Management
+- It is recommended to use the official Roblox launcher to ensure you are on the correct and latest supported version.
+- If you suspect Roblox is not updating correctly or is stuck on an old version, try a full reinstall as described in [Fully Uninstall and Install](#fully-uninstall-and-install) or use the [Roblox LIVE forcer tool](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat).
 
 ---
 
@@ -67,18 +63,25 @@ Planned:
 # Fully Uninstall and Install
 ## Please do this first if you are having issues.
 
-- Press "Windows + r" and type `%localappdata%` and delete the Roblox folder. If you have Fishstrap/bloxstrap, go to `/Fishstrap/versions` and delete the version-****** (example: version-a9a5d0b275a34ffb) folder so next time you open it, it installs the new version of Roblox.
+- Press "Windows + r" and type `%localappdata%` and delete the **Roblox** folder.
 - Open `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with the `.exe`, `autoexe`, etc.) and delete that Swift folder too.
-- type "windows + r" and type `%appdata%`, delete the swift folder (If you have important scripts, backup your scripts and paste them here after you finish this)
-- Head to [Fishstrap](https://www.fishstrap.app/) and download Fishstrap (You can skip this if you already have it)
-- After installing it you can set your fishstrap setting but the rendering mode should be **direct x 11**, dont launch now just save it.click *fastflags* then *graphics*, **scroll down** 
+- Type "windows + r" and type `%appdata%`, delete the **swift** folder (If you have important scripts, backup your scripts and paste them here after you finish this).
+- Make sure you are using the standard Roblox launcher.
 - Make a Swift folder and set that folder to [exceptions](#how-do-i-disable-my-antivirus).
-- After disabling the antivirus head to swift [download](https://getswift.gg/) and download swift to the folder that you added exceptions. Dont launch it now.
-- install the [Dependencies](#dependencies) if you dont have them.
-- Run Swift as administrator again and open roblox using fishstrap make sure it installs, and your channel is **LIVE** or **production**.
-- Get your Swift key and try attaching, If you get injection timeout do the [Injection timeout fix](#injection-timeout)
+- After disabling the antivirus, head to the Swift [download page](https://getswift.gg/) and download Swift into the folder that you added to exceptions. Don't launch it yet.
+- Install the [Dependencies](#dependencies) if you don't have them.
+- Run Swift as administrator. Then, launch Roblox using the standard launcher.
+- Get your Swift key. **Immediately** after clicking the Roblox launcher to start Roblox (you might see your mouse cursor change to a loading state or just a brief delay), attempt to attach Swift 1-2 times. Do not wait for the Roblox homepage or any other windows to fully load.
+- If Swift says 'no Roblox process found':
+    1. Open Task Manager (Ctrl+Shift+Esc).
+    2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
+    3. If found, end these tasks.
+    4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
+    5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
+https://media.catgirl.dpdns.org/photos/HowToAttach.mp4
+If you get an injection timeout, refer to the [Injection timeout fix](#injection-timeout).
 
-Now it should work if it doesn't, and you get errors before you could even finish or after finishing, head to [Table of Contents](#app), select your error, and try the fix.
+Now it should work. If it doesn't, and you get errors before you could even finish or after finishing, head to the [App errors list](#app), select your error, and try the fix.
 
 ---
 
@@ -96,21 +99,17 @@ Now it should work if it doesn't, and you get errors before you could even finis
 - restart swift
 
 ---
-## How do I downgrade?
+## Using Older Roblox Versions (Downgrading)
 
 > [!CAUTION]
-> Downgrading might be detected, likely not but still a risk of being banned. Just as there is a risk with exploiting, you have been warned. Use alts!
+> **Downgrading is NOT recommended and likely DETECTED.** Roblox actively warns against and may take action on accounts using modified or outdated clients. Using an older version significantly increases your risk of detection and bans. Proceed at your own extreme risk, preferably on alternate accounts you are willing to lose.
 
 > [!IMPORTANT]
-> Right now downgrading will make swift not execute so dont do this.
+> Often, using an older version of Roblox will cause Swift to **not execute or inject correctly**. It is best to wait for Swift to update for the latest Roblox version.
 
-You might want to downgrade if Swift hasn’t updated yet. Here’s how:
-
-- Go to https://rdd.latte.to/
-- set the version hash you want
-- Download and unzip the file  
-- Open `RobloxPlayerBeta.exe` inside the folder  
-- Inject as normal
+If you still choose to ignore these warnings and attempt to use an older version:
+- You would need to find a source for older Roblox client files. This is not provided or endorsed here due to the risks.
+- If you manage to run an older version, attempt to inject Swift as usual, but expect issues.
 
 ---
 
@@ -171,8 +170,14 @@ Close Swift and Roblox completely.
 ## Injection Timeout
 
 > [!IMPORTANT]
-> Inject **only** on homescreen, not in a game</br>
-> If you get this error but dont crash, try to inject multiple times</br>
+> Inject Swift **immediately** after clicking the Roblox launcher to start Roblox. Attempt to attach 1-2 times during this very early startup phase (e.g., when your mouse cursor might show a loading state or just after the launch click). Do **NOT** wait for the Roblox homepage to load or inject if you are already in a game.</br>
+> If Swift says 'no Roblox process found':
+    1. Open Task Manager (Ctrl+Shift+Esc).
+    2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
+    3. If found, end these tasks.
+    4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
+    5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more. </br>
+> If you get an injection timeout but don't crash, try to attach 1-2 times slowly as described above.</br>
 > Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
 
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
@@ -181,8 +186,8 @@ Close Swift and Roblox completely.
 Open roblox, go to more, then about
 ![version](https://github.com/user-attachments/assets/8dd71b87-84d5-4ac4-8a20-a83ffe217c0c)
 
-Compare this information with someone who isn't getting the error. As you may be on the wrong version
-If you are, update and compare again. Also make sure channel is **LIVE**!
+Compare this information with someone who isn't getting the error, as you may be on the wrong version.
+If you are, update and compare again. Also make sure your Roblox channel is **LIVE**!
 
 **GUIDE TO RESOLVING INJECTION TIMEOUT ERRORS**
 
@@ -191,7 +196,7 @@ If you encounter injection timeout issues and lack administrative privileges on 
 **I. Administrator Account Access**
 1. *Switch to the Administrator Account:*
    - Log in to the administrator account on your computer.
-   - Download and install the appropriate version of Roblox.
+   - Download and install the appropriate version of Roblox using the official launcher.
    - If a version of Roblox is already installed on the administrator account, please uninstall it prior to proceeding, as it may be outdated.
    - Install the newly downloaded version of Roblox.
 
@@ -207,14 +212,18 @@ If you are currently using the administrator account, you may:
 1. Uninstall Swift and Roblox-related files located in `%localappdata%`.
 2. Remove Swift and Roblox installations from Control Panel > Programs > Programs & Features.
 3. Reinstall [Swift](https://getswift.gg).
-4. If you want you can uninstall normal roblox.
-5. Install booststrapper. ([Bloxstrap](<https://bloxstrap.org>) or [Fishstrap](https://fishstrap.org).)
-6. make sure your antivirus is **off** and you added exceptions to your antivirus.
-7. make sure you made a swift folder and opened swift there.
-8. delete everything in the swift folder except swift.exe and run it as admin.
-9. When you launch roblox and it says starting roblox spam attach swift 2-3 time till it doesnt say no roblox process found.
-   https://media.catgirl.dpdns.org/photos/startingroblox.jpg
-
+4. Uninstall normal Roblox and reinstall it from the official [Roblox website](https://www.roblox.com/download).
+5. Make sure your antivirus is **off** and you added exceptions to your antivirus.
+6. Make sure you made a swift folder and opened swift there.
+7. Delete everything in the swift folder except `swift.exe` and run it as admin.
+8. **Immediately** after clicking the Roblox launcher to start Roblox, attempt to attach Swift by clicking the attach button 1-2 times. Do not spam the attach button.
+9. If Swift says 'no Roblox process found':
+    1. Open Task Manager (Ctrl+Shift+Esc).
+    2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
+    3. If found, end these tasks.
+    4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
+    5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
+https://media.catgirl.dpdns.org/photos/HowToAttach.mp4
 
 ![image](https://github.com/user-attachments/assets/ceb6b238-750c-47e9-9787-a9d0fbc56c24)
 
@@ -273,20 +282,11 @@ If you are currently using the administrator account, you may:
 
 ## Not executing
 
-SPAM the execute button, wait, spam more, wait, spam more.
-Sometimes it just bugs out like that, if its still not executing then:
-
-- Press `Win + R`, type: `%localappdata%`  
-- Go to `Roblox/Versions`, delete **everything**
-- Visit [rdd.latte.to](https://rdd.latte.to)  
-    - Set Binary Type: `WindowsPlayer`  
-    - Channel: `LIVE`  
-    - Paste version number from downloaded zip
-- Drag the zip into the versions folder  
-- Remove `Live-WindowsPlayer-` from the filename  
-- Extract & run Roblox from inside
-
-Now Swift should execute properly.
+- SPAM the execute button, wait, spam more, wait, spam more. Sometimes it just bugs out like that.
+- If it's still not executing:
+    - Ensure Swift injected successfully by following the precise timing and troubleshooting steps in the [Injection Timeout](#injection-timeout) section, including checking Task Manager for lingering Roblox processes if 'no Roblox process found' occurs.
+    - Perform a full uninstall and reinstall of both Roblox and Swift as per the [Fully Uninstall and Install](#fully-uninstall-and-install) section.
+    - Ensure you are on the latest official Roblox version. If you suspect Roblox is not updating, use the [Roblox LIVE forcer tool](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat).
 
 ---
 
@@ -308,6 +308,6 @@ Now Swift should execute properly.
 
 ## Crash on inject
 
-- Make sure to inject in the home page or on bloxstrap/fishstrap inject when "starting roblox.." gui appears
-- Download [roblox](https://www.roblox.com/download) again, you're probably using an outdated version
-- If roblox just keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to update for you
+- Make sure to attach Swift **immediately** after clicking the Roblox launcher to start Roblox. Attempt to attach 1-2 times during this very early startup phase. Do **not** attach once the Roblox homepage is fully loaded or if Roblox has been running for several seconds. If Swift says 'no Roblox process found', check Task Manager for `RobloxPlayerBeta.exe`, end it if present, and retry launching Roblox and attaching immediately.
+- Download [roblox](https://www.roblox.com/download) again from the official website. You might be using an outdated or corrupted version.
+- If Roblox keeps launching an outdated version, use [this](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to help force an update to the LIVE channel.
