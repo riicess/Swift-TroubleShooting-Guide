@@ -78,7 +78,7 @@ Planned:
     3. If found, end these tasks.
     4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
     5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
-https://media.catgirl.dpdns.org/photos/HowToAttach.mp4
+- for a video about this go to [Injection timeout](#injection-timeout) section.
 If you get an injection timeout, refer to the [Injection timeout fix](#injection-timeout).
 
 Now it should work. If it doesn't, and you get errors before you could even finish or after finishing, head to the [App errors list](#app), select your error, and try the fix.
@@ -171,14 +171,15 @@ Close Swift and Roblox completely.
 
 > [!IMPORTANT]
 > Inject Swift **immediately** after clicking the Roblox launcher to start Roblox. Attempt to attach 1-2 times during this very early startup phase (e.g., when your mouse cursor might show a loading state or just after the launch click). Do **NOT** wait for the Roblox homepage to load or inject if you are already in a game.</br>
-> If Swift says 'no Roblox process found':
-    1. Open Task Manager (Ctrl+Shift+Esc).
-    2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
-    3. If found, end these tasks.
-    4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
-    5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more. </br>
-> If you get an injection timeout but don't crash, try to attach 1-2 times slowly as described above.</br>
-> Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus). Defender can silently delete `Ckfn1k59vk.exe`.
+>
+> If Swift says 'no Roblox process found':    
+> 1. Open Task Manager (Ctrl+Shift+Esc).    
+> 2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
+> 3. If found, end these tasks.
+> 4. Relaunch Roblox and **immediately** try attaching Swift again as described above.
+> 5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more. </br>
+>If you get an injection timeout but don't crash, try to attach 1-2 times slowly as described above.
+>Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus)
 
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
