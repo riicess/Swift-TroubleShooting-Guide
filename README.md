@@ -7,6 +7,10 @@
 > **Last updated version:** `0.672.0.6720706` **VersionGuid:**: `version-ff05edc617954c5b`
 > **Join the community:** [Swift Discord](https://discord.gg/getswiftgg)
 
+> [!NOTE]
+> If your issue isn't listed here or the solutions didn't help, please create a new issue.
+>
+> If you know how to fix it or how to reproduce the error, be sure to include that information in your report.
 ---
 
 ## 📋 Table of Contents
