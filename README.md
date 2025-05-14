@@ -4,7 +4,7 @@
 > [!IMPORTANT]
 > [Only official download](https://getswift.gg/)  
 > **Status:** 🟢 WORKING but DETECTED, Use alt</br>
-> **Last updated version:** `0.672.0.6720706` **VersionGuid:**: `version-ff05edc617954c5b`
+> **Last updated version:** `0.673.0.6730711` **VersionGuid:**: `version-3c1b78b767674c66`
 > **Join the community:** [Swift Discord](https://discord.gg/getswiftgg)
 
 > [!NOTE]
