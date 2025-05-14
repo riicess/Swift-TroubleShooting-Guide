@@ -155,10 +155,10 @@ Using McAfee, Norton, AVG, Avast? Just search how to disable or make folder exce
 - Refresh stuck tasks  
 - If given an article task, click inside **the same tab** that opens.
 
-### Early expire?
-- check if you have the old key copied or in the clipboard ( windows key + v )
-- paste it to swift and click submit till it works
-- if you dont have the old key get a new key
+### Early Expire?
+* Check if you still have the old key copied or available in your clipboard (try **Windows key + V**).
+* Paste the old key into Swift and click **Submit** — you may need to try multiple times (submit → wait → repeat) until it works.
+* If you no longer have the old key, generate a new one.
 
 ---
 
