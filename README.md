@@ -1,11 +1,9 @@
 # 🛠️ Swift Troubleshooting Guide
 <sub> not made by me, made by [LilahCodes](https://github.com/LilahCodes) all credits go to her i just updated it and added new things. <sub>
 
-> [!IMPORTANT]
-> [Only official download](https://getswift.gg/)  
-> **Status:** 🟢 WORKING but **DETECTED**, Use **alt**</br>
-> **Last updated version:** `0.674.0.6740785` **VersionGuid:**: `version-e00a4ca39fb04359`
-> **Join the community:** [Swift Discord](https://discord.gg/getswiftgg)
+![Swift Status](https://stracker.catgirl.dpdns.org)
+
+**Join the community! ->** [Swift Discord](https://discord.gg/getswiftgg)
 
 > [!NOTE]
 > If your issue isn't listed here or the solutions didn't help, please create a new issue.
