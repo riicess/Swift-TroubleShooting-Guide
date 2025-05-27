@@ -1,7 +1,7 @@
 # 🛠️ Swift Troubleshooting Guide
 <sub> not made by me, made by [LilahCodes](https://github.com/LilahCodes) all credits go to her i just updated it and added new things. <sub>
 
-![Swift Status](https://stracker.catgirl.dpdns.org)
+![Swift Status](https://stracker.catgirl.dpdns.or)
 
 **Join the community! ->** [Swift Discord](https://discord.gg/getswiftgg)
 
