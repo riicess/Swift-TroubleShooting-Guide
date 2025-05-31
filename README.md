@@ -298,15 +298,12 @@ https://github.com/user-attachments/assets/b6e918f8-cadf-475b-a2de-4809467814a7
 > [!NOTE]
 > Make sure all the following are installed and your drivers are up-to-date:
 
-- [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
-- [VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)  
-- [VC++ x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
-- [Webview](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
-- [Microsoft Visual C++ 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109)  
-- [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
-- [D3D](https://www.microsoft.com/en-us/download/details.aspx?id=35)
-
-
+[.NET SDK 8.0]([https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.16-windows-x64-installer))  
+[VC Redist x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)  
+[VC Redist x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
+[Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
+[DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
+[d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 ---
 
 ## Crash on inject
