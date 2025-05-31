@@ -301,7 +301,7 @@ https://github.com/user-attachments/assets/b6e918f8-cadf-475b-a2de-4809467814a7
 - [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
 - [VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)  
 - [VC++ x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
-- [DirectX Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
+- [Webview](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
 - [Microsoft Visual C++ 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109)  
 - [Microsoft Visual C++ 2008](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - [D3D](https://www.microsoft.com/en-us/download/details.aspx?id=35)
