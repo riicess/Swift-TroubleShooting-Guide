@@ -182,16 +182,10 @@ Close Swift and Roblox completely.
 > 5. If still 'no Roblox process found', the attempt was likely too early or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more. </br>
 >If you get an injection timeout but don't crash, try to attach 1-2 times slowly as described above.
 >Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus)
+>Below fix is from the swift suppport if this doesnt work try that.
 
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)  
 - [Add an Exception](#how-do-i-disable-my-antivirus)
-
-Open roblox, go to more, then about
-![version](https://github.com/user-attachments/assets/8dd71b87-84d5-4ac4-8a20-a83ffe217c0c)
-
-Compare this information with someone who isn't getting the error, as you may be on the wrong version.
-If you are, update and compare again. Also make sure your Roblox channel is **LIVE**!
-
 **GUIDE TO RESOLVING INJECTION TIMEOUT ERRORS**
 
 If you encounter injection timeout issues and lack administrative privileges on your current user account, please follow the steps outlined below:
