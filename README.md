@@ -304,6 +304,10 @@ https://github.com/user-attachments/assets/b6e918f8-cadf-475b-a2de-4809467814a7
 [Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)  
 [DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 [d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35)
+
+If you dont want to install Dependencies manually try the [installer](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/SwiftDepsInstall.exe)\
+Source code of the exe is [here](https://jumpshare.com/v/FGAsdqMWAFdEBvkgd1wI?b=AMIJPpcicU7o7JxQvtIU) 
+
 ---
 
 ## Crash on inject
