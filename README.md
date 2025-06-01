@@ -16,7 +16,7 @@
 > [!NOTE]
 > Swift requires certain files to function correctly. Please refer to the [Dependencies](#dependencies) section.
 
-Before diving into specific errors, it's often helpful to perform a [Full Uninstall and Reinstall](#fully-uninstall-and-install) as this can resolve many common problems.
+Before diving into specific errors, it's often helpful to perform a [Full Uninstall and Reinstall](#full-uninstall-and-reinstall) as this can resolve many common problems.
 
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
