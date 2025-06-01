@@ -227,7 +227,7 @@ Close Swift and Roblox completely.
 > 2. Look for any `RobloxPlayerBeta.exe` or similar Roblox processes.
 > 3. If found, end these tasks.
 > 4. Relaunch Roblox and **immediately** try attaching Swift again as described above (or at the "Starting Roblox..." prompt for Bloxstrap/Fishstrap).
-> 5. If still 'no Roblox process found', the attempt was likely too early, or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox (or after the "Starting Roblox..." message) and try once more.
+> 5. If still 'no Roblox process found', the attempt was likely too early, or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox and try once more.
 > If you get an injection timeout but don't crash, try to attach once or twice, slowly and deliberately, following the timing described above.
 >
 >Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus)\
