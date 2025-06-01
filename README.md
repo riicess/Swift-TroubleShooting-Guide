@@ -29,8 +29,8 @@ Before diving into specific errors, it's often helpful to perform a [Full Uninst
 ### Website
 - [Key System Problems](#key-system-issues)
 ### App
-- [Fatal error: Unexpected Error](#initialization-failed-unexpected-error)
-- [Fatal error: ServerCreationFailed](#initialization-failed-servercreationfailed)
+- [Fatal error: Unexpected Error](#fatal-error-unexpected-error)
+- [Fatal error: ServerCreationFailed](#fatal-error-servercreationfailed)
 - [Crash on inject](#crash-on-inject)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
