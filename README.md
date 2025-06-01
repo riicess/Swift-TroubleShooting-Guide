@@ -49,7 +49,7 @@ Before diving into specific errors, it's often helpful to perform a [Full Uninst
     - Version folder paths are typically:
         - Bloxstrap: `%localappdata%\Bloxstrap\Versions`
         - Fishstrap: `%localappdata%\Fishstrap\Versions`
-    - For setup details, see [Bloxstrap Setup](#bloxstrap-setup) or [Fishstrap Setup](#fishstrap-setup).
+    - For setup details, see [Bloxstrap Setup](#-bloxstrap-setup) or [Fishstrap Setup](#-fishstrap-setup).
 - **Manual Version Check (rdd.weao.xyz):**
     - You can check and download specific Roblox versions from [rdd.weao.xyz](https://rdd.weao.xyz/).
     - Find the Roblox version hash mentioned at the start of the main Swift README page.
