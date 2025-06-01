@@ -20,14 +20,14 @@ Before diving into specific errors, it's often helpful to perform a [Full Uninst
 
 ### Misc
 - [What VPN to use](#what-vpn-to-use)
-- [Known Issues / Planned Features](#issues-with-no-fix--planned-features)
+- [Known Issues / Planned Features](#known-issues--planned-features)
 - [Using Older Roblox (Downgrading)](#using-older-roblox-versions-downgrading)
-- [How to disable antivirus](#how-do-i-disable-my-antivirus)
+- [How to disable antivirus](#how-to-disable-antivirus)
 - [Roblox Version Help](#roblox-version-help)
-- [Bloxstrap Setup](#bloxstrap-setup)
-- [Fishstrap Setup](#fishstrap-setup)
+- [Bloxstrap Setup](#-bloxstrap-setup)
+- [Fishstrap Setup](#-fishstrap-setup)
 ### Website
-- [Key System Problems](#key-system-issues)
+- [Key System Problems](#key-system-problems)
 ### App
 - [Fatal error: Unexpected Error](#fatal-error-unexpected-error)
 - [Fatal error: ServerCreationFailed](#fatal-error-servercreationfailed)
