@@ -230,10 +230,10 @@ Close Swift and Roblox completely.
 > 5. If still 'no Roblox process found', the attempt was likely too early, or Roblox truly hasn't started its core process yet; wait a literal second after launching Roblox (or after the "Starting Roblox..." message) and try once more.
 > If you get an injection timeout but don't crash, try to attach once or twice, slowly and deliberately, following the timing described above.
 >
->Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus).
-> Ensure your Roblox version is compatible. Refer to the [Roblox Version Help](#roblox-version-help) section for details. For Bloxstrap or Fishstrap, also consult their specific setup sections.
+>Make sure [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus)\
+> Ensure your Roblox version is compatible. Refer to the [Roblox Version Help](#roblox-version-help) section for details. For Bloxstrap or Fishstrap, also look at their specific setup sections.
 >
-> The guide below is adapted from Swift support. If the previous steps don't work, try these.
+> The guide below is from Swift support. If the previous steps don't work, try these.
 
 - [Restore the EXE](https://www.youtube.com/watch?v=EWaw1XZJj58)
 - [Add an Exception](#how-do-i-disable-my-antivirus)
