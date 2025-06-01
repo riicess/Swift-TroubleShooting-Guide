@@ -343,11 +343,11 @@ If you are currently using the administrator account, you may:
 > Ensure all the following components are installed on your system and that your graphics drivers are up-to-date:
 
 [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.16-windows-x64-installer)\
-[VC Redist x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-[VC Redist x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-[Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
-[DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
-[d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35) (This is the Legacy DirectX SDK which includes necessary d3dx9 components)
+[VC Redist x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)\
+[VC Redist x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)\
+[Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)\
+[DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109)\
+[d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35)\
 
 If you prefer not to install these dependencies manually, you can try the [installer](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/SwiftDepsInstall.exe)\
 The source code for this installer can be found [here](https://jmp.sh/XUtd6wQN)
