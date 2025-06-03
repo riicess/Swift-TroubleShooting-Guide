@@ -113,7 +113,7 @@ Planned:
 - Press `Windows + R`, type `%localappdata%`, and press Enter.
     - Delete the **Roblox** folder.
     - **If you use Bloxstrap or Fishstrap:** Also delete the `Bloxstrap` folder or `Fishstrap` folder respectively from `%localappdata%`.
-- Continuing in `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with `Swift.exe`, `autoexe`, etc.) and delete that Swift installation folder too.
+- Continuing in `%localappdata%`, find the **Swift** folder and delete it. Then, go to the place where you downloaded **Swift** (the folder with `Swift.exe`, etc.) and delete that Swift installation folder too.
 - Press `Windows + R`, type `%appdata%`, and press Enter. Delete the **swift** folder (If you have important scripts, remember to back them up first and restore them later).
 - Ensure you are using the standard Roblox launcher, or that your Bloxstrap/Fishstrap installation is correctly configured (refer to their respective setup sections if needed).
 - Create a new, empty folder for Swift. Add this folder to your antivirus [exceptions](#how-do-i-disable-my-antivirus).
