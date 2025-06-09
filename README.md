@@ -347,7 +347,7 @@ If you are currently using the administrator account, you may:
 [VC Redist x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)\
 [Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)\
 [DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109)\
-[d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35)\
+[d3d](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
 If you prefer not to install these dependencies manually, you can try the [installer](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/SwiftDepsInstall.exe)\
 The source code for this installer can be found [here](https://jmp.sh/XUtd6wQN)
