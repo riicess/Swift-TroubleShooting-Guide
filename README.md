@@ -187,6 +187,7 @@ If you are using a different antivirus like McAfee, Norton, AVG, or Avast, searc
 
 > [!IMPORTANT]
 > You are likely to encounter key system issues on certain browsers. Using Microsoft Edge in an Incognito window often resolves most of these problems.
+> here is a quick [tutorial](https://media.catgirl.dpdns.org/f336730/) of key system but incognito is not used there so keep in mind using it.
 
 ### Swift website won’t load?
 - Try using the [Warp VPN](#what-vpn-to-use).
