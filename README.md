@@ -5,12 +5,15 @@
 
 **Join the community! ->** [Swift Discord](https://discord.gg/getswiftgg)
 
+> [!IMPORTANT]
+> This guide gives detailed, step-by-step instructions for the most common and important problems.
+>
+> For a longer list of quick fixes for many different errors, please see the [Ssenualitzies Swift Fix Guide](https://github.com/ssenualitzies/ssenualitzies-swift-fix-guide).
+
 > [!NOTE]
 > If your issue isn't listed here or the solutions provided don't help, please consider creating a new issue on the GitHub repository.
 >
 > If you know how to fix a problem or can provide steps to reproduce an error, please include that information in your report.
->
-> For a less detailed (but it has more fixes) guide check this out [ssenualitzies swift fix guide](https://github.com/ssenualitzies/ssenualitzies-swift-fix-guide)
 ---
 
 ## 📋 Table of Contents
