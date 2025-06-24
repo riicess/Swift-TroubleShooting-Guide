@@ -50,7 +50,7 @@ Before trying specific fixes, it's best to do a [Full Uninstall and Reinstall](#
 ---
 
 ## Roblox Version Help
-- **Standard Launcher:** We recommend using the official Roblox launcher. If Roblox isn't updating, try a [Full Uninstall and Reinstall](#fully-uninstall-and-install). You can also use the [Roblox LIVE forcer tool](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat).
+- **Standard Launcher:** We recommend using the official Roblox launcher. If Roblox isn't updating, try a [Full Uninstall and Reinstall](#fully-uninstall-and-install).
 - **Bloxstrap/Fishstrap:** These tools help manage Roblox versions.
     - Typical folder paths are:
         - Bloxstrap: `%localappdata%\Bloxstrap\Versions`
@@ -311,7 +311,7 @@ Ensure your Roblox version is compatible. See the [Roblox Version Help](#roblox-
 
 > [!TIP]
 > **Still not syncing?**
-> If the issue continues, try running [this `timesync.bat`](https://github.com/LilahCodes/swift/blob/main/support%20files/timesync.bat) file as an administrator. It will try to force a time sync.
+> If the issue continues, try running [this `timesync.bat`](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/timesync.bat) file as an administrator. It will try to force a time sync.
 
 ---
 
