@@ -31,12 +31,13 @@ Before trying specific fixes, it's best to do a [Full Uninstall and Reinstall](#
 - [Roblox Version Help](#roblox-version-help)
 - [Bloxstrap Setup](#-bloxstrap-setup)
 - [Fishstrap Setup](#-fishstrap-setup)
+- [Script & Workspace Folders](#-script--workspace-folders)
 ### Website
 - [Key System Problems](#key-system-problems)
 ### App
 - [Fatal error: Unexpected Error](#fatal-error-unexpected-error)
 - [Fatal error: ServerCreationFailed](#fatal-error-servercreationfailed)
-- [Crash on inject](#crash-on-inject)
+- [Crash on inject / Notepad crash](#crash-on-inject--notepad-crash)
 - [Fatal Error](#fatal-error)
 - [Injection Timeout](#injection-timeout)
 - [Module not found](#module-not-found)
@@ -60,8 +61,8 @@ Before trying specific fixes, it's best to do a [Full Uninstall and Reinstall](#
     - Find the version hash mentioned in the main Swift README page.
     - On `rdd.weao.xyz`, make sure "Binary Type" is "WindowsPlayer" and "Channel Name" is "LIVE".
     - Enter the version hash from the README into the "Version Hash" field.
-    - If Swift's README says the version is current, click "Download Latest Version".
-    - If Swift's README says an older version is needed, click "Download Previous Version".
+    - If Swift's README says the version is Updated, click "Download Latest Version".
+    - If Swift's README says an Needs Update, click "Download Previous Version".
 
 ---
 
@@ -98,6 +99,17 @@ For more details on Bloxstrap, please see its own documentation.
 
 ---
 
+## 📂 Script & Workspace Folders
+
+To find your script folders, open the Run dialog (`Win + R`), type **`%appdata%\Swift`**, and press Enter.
+
+Inside, you will find these folders:
+- `workspace` - Contains internal Swift files. Usually, you don't need to touch this.
+- `scripts` - Place your personal `.lua` script files here.
+- `autoexecute` - Any scripts placed here will run automatically when you inject.
+
+---
+
 ## Known Issues / Planned Features
 
 > [!NOTE]
@@ -118,8 +130,8 @@ For more details on Bloxstrap, please see its own documentation.
 - Press `Windows + R`, type `%localappdata%`, and press Enter.
     - Delete the **Roblox** folder.
     - **If you use Bloxstrap or Fishstrap:** Delete the `Bloxstrap` or `Fishstrap` folder as well.
-- While still in `%localappdata%`, find and delete the **Swift** folder. Next, go to the folder where you first downloaded Swift and delete it too.
-- Press `Windows + R`, type `%appdata%`, and press Enter. Delete the **swift** folder. (If you have important scripts, back them up first).
+- Press `Windows + R`, type `%appdata%`, and press Enter. Delete the **Swift** folder. (If you have important scripts, back them up first).
+- Go to the folder where you first downloaded Swift (the one with `Swift.exe`) and delete that folder too.
 - Make sure you are using the correct Roblox version. See [version help](#roblox-version-help).
 - Create a new, empty folder for Swift. Add this folder to your antivirus [exceptions](#how-do-i-disable-my-antivirus).
 - After setting up antivirus exceptions, go to the Swift [download page](https://getswift.gg/). Download Swift into the new folder you just created. Do not launch it yet.
@@ -197,12 +209,11 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 > You may have key system issues on some browsers. Using Microsoft Edge in an Incognito window usually solves these problems.
 > Here is a quick [tutorial](https://media.catgirl.dpdns.org/f336730/) for the key system. **Note:** The tutorial does not show incognito mode, but we strongly recommend you use it.
 
-
 >[!NOTE]
->Remember, you can skip the **tasks**, DONT download anything they say on the key system site.
-> - press choose another offer
-> - then press skip, "go to destination" should be green now, click it
-> - If its not, try refreshing the page
+>Remember, you can skip the **tasks**. DO NOT download anything from the key system site.
+> - Press "Choose another offer".
+> - Then press "Skip". The "Go to destination" button should turn green. Click it.
+> - If it doesn't, try refreshing the page.
 
 ### Swift website won’t load?
 - Try using the [Warp VPN](#what-vpn-to-use).
@@ -222,6 +233,21 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 - If you don't have the old key, you must get a new one.
 ---
 
+## Crash on inject / Notepad crash
+
+- If your crash happens along with an **'Injection Timeout'** error, the steps in the [Injection Timeout](#injection-timeout) section will solve it.
+
+If the crash happens without a specific error, it's often caused by a problem with your Roblox client. This usually means a version or channel mismatch.
+
+1.  **Check your Roblox Version:** The most common cause is an incompatible version. Carefully follow the [Roblox Version Help](#roblox-version-help) guide to fix this.
+
+2.  **Clear Corrupted Roblox Files:** If your version is correct, corrupted files could be the issue.
+    - Open Run (`Win + R`), type `%localappdata%`, and press Enter.
+    - Delete the `Roblox`, `Bloxstrap`, and `Fishstrap` folders if they exist.
+    - **Important:** After deleting Roblox files, you must reinstall Roblox. For the best results, follow our complete [Full Uninstall and Reinstall](#full-uninstall-and-reinstall) guide.
+
+---
+
 ## Fatal Error
 
 - Close Swift and Roblox completely.
@@ -231,20 +257,20 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 
 ## Injection Timeout
 
- The timing of when you attach Swift is critical.
+The timing of when you attach Swift is critical.
  - **Standard Roblox Launcher:** Inject Swift **immediately** after clicking the launch button. Try to attach once or twice during this early startup phase. Do **NOT** wait for the Roblox homepage to load.
  - **Bloxstrap/Fishstrap Users:** Wait for the "Starting Roblox..." popup, then try to attach once or twice. Do **NOT** spam the attach button.
 
- If Swift says 'no Roblox process found':
+If Swift says 'no Roblox process found':
  1. Open Task Manager (`Ctrl+Shift+Esc`).
  2. Look for any `RobloxPlayerBeta.exe` processes and end them.
  3. Relaunch Roblox and **immediately** try attaching again with the correct timing.
  4. If it still fails, you tried too early. Wait a literal second after launching Roblox and try again.
 
- If you get a timeout but don't crash, try attaching slowly once or twice, following the timing above.
+If you get a timeout but don't crash, try attaching slowly once or twice, following the timing above.
 
- Make sure your [antivirus is disabled and exceptions are added](#how-to-disable-antivirus).
- Ensure your Roblox version is compatible. See the [Roblox Version Help](#roblox-version-help) section.
+Make sure your [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus).
+Ensure your Roblox version is compatible. See the [Roblox Version Help](#roblox-version-help) section.
 
 > [!IMPORTANT]
 > If the basic steps above don't work, try these more advanced solutions.
@@ -307,16 +333,6 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 
 ---
 
-## Not executing
-
-- Try clicking the execute button several times with short pauses. Sometimes the execution process is slow.
-- If it's still not executing:
-    - Make sure Swift injected successfully. Carefully follow the steps in the [Injection Timeout](#injection-timeout) section.
-    - Do a full uninstall and reinstall of both Roblox and Swift. Follow the steps in the [Full Uninstall and Reinstall](#fully-uninstall-and-install) section.
-    - Make sure you are on the correct Roblox version. See the [Roblox Version Help](#roblox-version-help) section for details.
-
----
-
 ## Dependencies
 
 > [!NOTE]
@@ -331,18 +347,3 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 
 If you don't want to install these manually, you can use the [installer](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/SwiftDepsInstall.exe).\
 The source code for this installer can be found [here](https://jmp.sh/XUtd6wQN).
-
----
-
-## Crash on inject
-
-- **Attachment Method and Timing:**
-    - **Standard Roblox Launcher:** Attach **immediately** after clicking the Roblox launch button. Try this once or twice during the early startup phase.
-    - **Bloxstrap/Fishstrap Users:** Attach when the "Starting Roblox..." message appears.
-    - Do **not** attach after the Roblox homepage is loaded or if Roblox has been running for a while.
-- **Check for Lingering Processes:** If Swift says 'no Roblox process found', open Task Manager (`Ctrl+Shift+Esc`). Look for `RobloxPlayerBeta.exe` processes and end them. Then, relaunch Roblox and try attaching again with the correct timing.
-- **Roblox Version:**
-    - If you don't use a launcher like Bloxstrap or Fishstrap, try downloading Roblox again from the [official website](https://www.roblox.com/download).
-    - For help managing versions, see the [Roblox Version Help](#roblox-version-help) section.
-    - If Roblox is stuck on an old version, you can use [this `roblox LIVE forcer.bat`](https://github.com/LilahCodes/swift/blob/main/support%20files/roblox%20LIVE%20forcer.bat) tool to force an update.
-    - **Bloxstrap/Fishstrap Users:** Make sure your launcher is set up to use a compatible Roblox version. Check their setup sections in this guide.
