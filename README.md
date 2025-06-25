@@ -206,7 +206,7 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 ## Key System Problems
 
 > [!IMPORTANT]
-> You may have key system issues on some browsers. Using Microsoft Edge in an Incognito window usually solves these problems.
+> You may have key system issues on some browsers. Using Microsoft Edge in an Incognito window usually solves these problems.\
 > Here is a quick [tutorial](https://media.catgirl.dpdns.org/ea1f547/) for the key system. **Note:** The tutorial does not show incognito mode, but we strongly recommend you use it.
 
 >[!NOTE]
