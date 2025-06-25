@@ -207,12 +207,12 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 
 > [!IMPORTANT]
 > You may have key system issues on some browsers. Using Microsoft Edge in an Incognito window usually solves these problems.
-> Here is a quick [tutorial](https://media.catgirl.dpdns.org/f336730/) for the key system. **Note:** The tutorial does not show incognito mode, but we strongly recommend you use it.
+> Here is a quick [tutorial](https://media.catgirl.dpdns.org/ea1f547/) for the key system. **Note:** The tutorial does not show incognito mode, but we strongly recommend you use it.
 
 >[!NOTE]
 >Remember, you can skip the **tasks**. DO NOT download anything from the key system site.
 > - Press "Choose another offer".
-> - Then press "Skip". The "Go to destination" button should turn green. Click it.
+> - Then press "Skip" till "Go to destination" button turns green then Click the button.
 > - If it doesn't, try refreshing the page.
 
 ### Swift website won’t load?
