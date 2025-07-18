@@ -134,7 +134,7 @@ Inside, you will find these folders:
 - Go to the folder where you first downloaded Swift (the one with `Swift.exe`) and delete that folder too.
 - Make sure you are using the correct Roblox version. See [version help](#roblox-version-help).
 - Create a new, empty folder for Swift. Add this folder to your antivirus [exceptions](#how-do-i-disable-my-antivirus).
-- After setting up antivirus exceptions, go to the Swift [download page](https://getswift.gg/). Download Swift into the new folder you just created. Do not launch it yet.
+- After setting up antivirus exceptions, go to the Swift [download page](https://getswift.vip). Download Swift into the new folder you just created. Do not launch it yet.
 - Install the [Dependencies](#dependencies) if you haven't already.
 - Run Swift as administrator. Then, launch Roblox.
 - Get your Swift key.
