@@ -51,6 +51,7 @@ Before trying specific fixes, it's best to do a [Full Uninstall and Reinstall](#
 
 ## Roblox Version Help
 - **Standard Launcher:** We recommend using the official Roblox launcher. If Roblox isn't updating, try a [Full Uninstall and Reinstall](#fully-uninstall-and-install).
+- **For Downgrading, or forcing yourself into the live channel you can use the [bat file](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/roblox%20LIVE%20forcer%20Fixes%20crashing.bat)
 - **Bloxstrap/Fishstrap:** These tools help manage Roblox versions.
     - Typical folder paths are:
         - Bloxstrap: `%localappdata%\Bloxstrap\Versions`
@@ -167,19 +168,12 @@ This should fix the problem. If not, go to the [App errors](#app) list, find you
 ---
 ## Using Older Roblox Versions (Downgrading)
 
-> [!CAUTION]
-> **Downgrading is NOT recommended. It carries a high risk of being detected.**
-> Roblox warns against using old or modified clients. They may take action against your account, which can include a ban.
->
-> If you still proceed, do so at your own risk. We highly recommend using an alternate account that you are willing to lose.
+You can downgrade using the [bat file](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/roblox%20LIVE%20forcer%20Fixes%20crashing.bat) 
+or 
+[Rdd by weao](https://rdd.weao.xyz/)\
+please check if swift needs update before downgrading, if it needs you can downgrade, if it doesnt need please [force yourself to live channel](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/roblox%20LIVE%20forcer%20Fixes%20crashing.bat) if you are experiencing crashes
 
-> [!IMPORTANT]
-> An older Roblox version will often cause Swift to fail. It's best to wait for Swift to be updated for the latest Roblox version.
-> If using Bloxstrap or Fishstrap, make sure they are not set to use an old version.
 
-If you ignore these warnings and use an older version:
-- You must find the older Roblox client files yourself. We do not provide or endorse them due to the risks.
-- If you run an old version, you can try to inject Swift, but expect it to have problems.
 
 ---
 
@@ -239,9 +233,11 @@ If you use another antivirus (like McAfee, Norton, etc.), search YouTube for "ho
 
 If the crash happens without a specific error, it's often caused by a problem with your Roblox client. This usually means a version or channel mismatch.
 
-1.  **Check your Roblox Version:** The most common cause is an incompatible version. Carefully follow the [Roblox Version Help](#roblox-version-help) guide to fix this.
+1.  **Check your Roblox Version:** The most common cause is an incompatible version.\
+    - For a quick fix, you are probably on beta channel, please force yourself into [live channel](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/roblox%20LIVE%20forcer%20Fixes%20crashing.bat)
+    - detailed > Carefully follow the [Roblox Version Help](#roblox-version-help) guide to fix this.
 
-2.  **Clear Corrupted Roblox Files:** If your version is correct, corrupted files could be the issue.
+3.  **Clear Corrupted Roblox Files:** If your version is correct, corrupted files could be the issue.
     - Open Run (`Win + R`), type `%localappdata%`, and press Enter.
     - Delete the `Roblox`, `Bloxstrap`, and `Fishstrap` folders if they exist.
     - **Important:** After deleting Roblox files, you must reinstall Roblox. For the best results, follow our complete [Full Uninstall and Reinstall](#full-uninstall-and-reinstall) guide.
@@ -270,7 +266,7 @@ If Swift says 'no Roblox process found':
 If you get a timeout but don't crash, try attaching slowly once or twice, following the timing above.
 
 Make sure your [antivirus is disabled and exceptions are added](#how-do-i-disable-my-antivirus).
-Ensure your Roblox version is compatible. See the [Roblox Version Help](#roblox-version-help) section.
+Ensure your Roblox version is compatible. See the [Roblox Version Help](#roblox-version-help) section. or if you dont want to read allat try [forcing yourself into live channel](https://github.com/riicess/Swift-TroubleShooting-Guide/blob/main/roblox%20LIVE%20forcer%20Fixes%20crashing.bat)
 
 > [!IMPORTANT]
 > If the basic steps above don't work, try these more advanced solutions.
